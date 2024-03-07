@@ -1,0 +1,151 @@
+.maindiv {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 3rem;
+  background-color: #fafafd;
+  width: 100%;
+}
+
+.p {
+  color: #b6b8ba;
+}
+
+.my-grey {
+  color: #7a7680;
+}
+
+.my-violet {
+  color: #6b59cc;
+}
+
+/* Header Styles  */
+
+.headercomp {
+  display: block;
+}
+
+.headermob {
+  display: none;
+}
+
+.buttonallcategorymob {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 10.5rem;
+  background-color: #5946d7;
+  color: white;
+  font-size: 1rem !important;
+  border-radius: 8px;
+}
+
+.searchcontainermob {
+  display: flex;
+  background-color: #f4f5f6;
+  border: solid 2px #dedee2;
+  border-radius: 5px;
+  width: 60%;
+  height: 2.8rem;
+  padding-left: 5px;
+}
+
+/* Header Adaptive */
+
+.actionoilcomp {
+  display: block;
+}
+
+.actionoilmob {
+  display: none;
+}
+
+/* OilTypeSection Adaptive */
+
+.oiltypesectionmob {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  /* Header Adaptive */
+
+  .headercomp {
+    display: none;
+  }
+  .headermob {
+    display: block;
+  }
+}
+
+@media (max-width: 870px) {
+  /* Header Adaptive */
+
+  a,
+  span {
+    display: none;
+  }
+  .buttonallcategorymob {
+    width: 50px;
+    padding: auto;
+  }
+  .searchcontainermob {
+    width: 80%;
+  }
+
+  /* ActionSection Adaptive */
+
+  .actionoilcomp {
+    display: none;
+  }
+
+  .actionoilmob {
+    display: block;
+  }
+
+  /* OilTypeSection Adaptive */
+
+  .oiltypesectioncomp {
+    display: none;
+  }
+
+  .oiltypesectionmob {
+    display: block;
+  }
+
+  /* CarParts Adaptive */
+
+  .scroll {
+    width: 80%;
+    height: 420px;
+    overflow-x: scroll;
+    margin: auto;
+  }
+
+  .scroll2 {
+    width: 100%;
+    overflow-x: scroll;
+    margin: auto;
+  }
+
+  /* Accumulator Adaptive */
+
+  .comphidden {
+    display: none !important;
+  }
+}
+
+@media (max-width: 675px) {
+  .compgrid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 950px) {
+  .noflex {
+    display: block !important;
+  }
+  .margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

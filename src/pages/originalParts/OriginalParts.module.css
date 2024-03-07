@@ -1,0 +1,28 @@
+.list {
+  background-color: #f9f9fb;
+}
+
+.comp {
+  display: block;
+}
+
+.mob {
+  display: none;
+}
+
+@media (max-width: 920px) {
+  .pad {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 780px) {
+  .comp {
+    display: none;
+  }
+  .mob {
+    display: block;
+    padding: 20px;
+    background-color: #f9f9fb;
+  }
+}

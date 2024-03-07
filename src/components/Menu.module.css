@@ -1,0 +1,26 @@
+.menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 25%;
+  height: 100vh;
+  background-color: white;
+  bottom: 0;
+  position: fixed;
+  z-index: 3;
+  overflow: hidden;
+  padding: 1rem;
+  padding-inline: 15px;
+  box-shadow: 10px;
+}
+
+.button {
+  width: auto;
+  padding-inline: 1% !important;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: #f4f5f6;
+  color: #5946d7;
+}

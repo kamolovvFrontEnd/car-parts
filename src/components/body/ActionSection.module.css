@@ -1,0 +1,142 @@
+h1 {
+  display: block !important;
+  font-size: 2em !important;
+  margin-block-start: 0.67em !important;
+  margin-block-end: 0.67em !important;
+  font-weight: bold !important;
+}
+
+.imgsize {
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+  width: 52%;
+}
+
+.spanaction {
+  background-color: #fb5c2a;
+  width: 112px;
+  height: 50px;
+  padding-inline: 10px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+}
+
+.arrowright {
+  position: absolute;
+  top: 45%;
+  right: -30px;
+}
+
+.arrowleft {
+  position: absolute;
+  top: 45%;
+  left: -30px;
+}
+
+.mainaction {
+  margin: auto;
+  width: 95%;
+  height: 420px;
+  position: relative;
+}
+
+.action {
+  margin-top: 2rem;
+  background-image: url("../../assets/download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  position: relative;
+  border-radius: 20px;
+  filter: opacity(80%);
+  filter: brightness(90%);
+}
+
+.actionheader {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+
+.actionheader2 {
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 3%;
+}
+
+.pages {
+  position: absolute;
+  top: 80%;
+  left: 3%;
+}
+
+/* Mobile Styles */
+
+.actionmob {
+  margin-top: 2rem;
+  background-image: url("../../assets/back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  position: relative;
+  border: 5px solid #ccc7e1;
+  border-radius: 20px;
+}
+
+.arrowrightmob {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 40%;
+  right: -45px;
+}
+
+.arrowleftmob {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 40%;
+  left: -45px;
+}
+
+.actionheadermob {
+  color: #2e1066;
+  position: absolute;
+  font-size: 200%;
+  font-weight: bold;
+  top: 10%;
+  left: 5%;
+}
+
+.actionheader2mob {
+  color: #3d3d4b;
+  position: absolute;
+  margin-top: 18px;
+  font-size: 150%;
+  top: 40%;
+  left: 5%;
+}
+
+.spanactionmob {
+  display: ruby;
+  background-color: white;
+  color: #fb5c2a;
+  width: 112px;
+  height: 50px;
+  padding-inline: 5px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+}
+
+.pagesmob {
+  position: absolute;
+  width: 60%;
+  margin-top: 30px;
+  top: 85%;
+  left: 20%;
+}

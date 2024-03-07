@@ -1,0 +1,62 @@
+.searchcontainer {
+  display: flex;
+  background-color: #f4f5f6;
+  border: solid 2px #dedee2;
+  border-radius: 5px;
+  width: 33%;
+  height: 2.8rem;
+  padding-left: 5px;
+}
+
+.search {
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  height: 2.5rem;
+}
+
+input {
+  outline: none;
+}
+
+.buttonallcategory {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 10.5rem;
+  height: 2.5rem;
+  background-color: #5946d7;
+  color: white;
+  border-radius: 8px;
+}
+
+.buttoncart {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 10.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+}
+
+.button {
+  width: auto;
+  padding-inline: 1% !important;
+  border-radius: 8px;
+}
+
+@media (max-width: 1250px) {
+  .button {
+    font-size: 75% !important;
+  }
+}
+@media (max-width: 940px) {
+  .button {
+    font-size: 80% !important;
+  }
+}
+
+.button:hover {
+  background-color: #f4f5f6;
+}
+
